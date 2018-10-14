@@ -1,4 +1,4 @@
-These python projects are the source code for the AWS Lambdas that route and parse incoming sensor data. They get data from AWS API Gateway, parse the data according to message version, write event logs and partial records (for v1 records) to S3, and insert sensor records directly to the Postgresql database in RDS.
+This python project is the source code for the AWS Lambda that routes and parses incoming sensor data. It gets data from AWS API Gateway, parses the data according to message version, writes event logs and partial records (for v1 records) to S3, and inserts sensor records directly to the Postgresql database in RDS.
 
 To set up your machine:
 - Make sure you have >= python 3.6 installed on your local machine, and set as the default python version. You can check your default python version with `python --version`.
