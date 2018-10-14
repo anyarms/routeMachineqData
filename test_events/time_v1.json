@@ -1,0 +1,37 @@
+{
+  "body": {
+    "Time": "2018-09-08T08:19:57.289Z",
+    "DecoderType": "",
+    "DevEUI": "0004A30B00236FEF",
+    "DevAddr": "0022E9E5",
+    "FPort": "1",
+    "FCntUp": "342",
+    "ADRbit": "1",
+    "MessageType": "4",
+    "FCntDn": "341",
+    "payload_hex": "ff5b89d685",
+    "decoded_payload": {
+      "RawData": "00"
+    },
+    "mic_hex": "44481f85",
+    "GatewayRSSI": "-45.000000",
+    "GatewaySNR": "8.000000",
+    "SpreadingFactor": "7",
+    "SubBand": "G20",
+    "Channel": "LC6",
+    "GatewayCount": "1",
+    "GatewayID": "004A28AA",
+    "Late": "0",
+    "GatewayLAT": "0.000000",
+    "GatewayLON": "0.000000",
+    "BatteryLevel": "",
+    "GatewayList": [
+      {
+        "GatewayID": "004A28AA",
+        "GatewayRSSI": "-45.000000",
+        "GatewaySNR": "8.000000",
+        "GatewayESP": "-45.638920"
+      }
+    ]
+  }
+}

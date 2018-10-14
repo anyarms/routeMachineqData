@@ -1,0 +1,40 @@
+{
+  "body": {
+    "Time": "2018-09-13T14:36:58.147Z",
+    "DecoderType": "",
+    "DevEUI": "0004A30B0023267A",
+    "DevAddr": "0023267A",
+    "FPort": "21",
+    "FCntUp": "4",
+    "ADRbit": "1",
+    "MessageType": "4",
+    "FCntDn": "4",
+    "payload_hex": "ff32362e30302c31332e3038",
+    "decoded_payload": {
+      "RawData": "ff32362e30302c31332e3038"
+    },
+    "mic_hex": "744bedea",
+    "GatewayRSSI": "-90.000000",
+    "GatewaySNR": "6.250000",
+    "SpreadingFactor": "7",
+    "SubBand": "G20",
+    "Channel": "LC5",
+    "GatewayCount": "1",
+    "GatewayID": "004A28AA",
+    "Late": "0",
+    "GatewayLAT": "0.000000",
+    "GatewayLON": "0.000000",
+    "BatteryLevel": "255",
+    "GatewayList": [
+      {
+        "GatewayID": "004A28AA",
+        "GatewayRSSI": "-90.000000",
+        "GatewaySNR": "6.250000",
+        "GatewayESP": "-90.924179"
+      }
+    ],
+    "controller": "action_logs",
+    "action": "create",
+    "action_log": {}
+  }
+}
