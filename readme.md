@@ -4,6 +4,9 @@ To set up your machine:
 - Make sure you have >= python 3.6 installed on your local machine, and set as the default python version. You can check your default python version with `python --version`.
 - Install the python-lambda toolkit: https://github.com/nficano/python-lambda
 - `boto3` wants AWS credentials in `~/.aws/credentials` on your machine. Contact Anya to get this credential info.
+- Set up your `config.yaml`:
+  - Rename `config-template.yaml` to `config.yaml`
+  - Fill in the environment variables to connect to the database (get these from Anya)
 
 To run a lambda:
 - Navigate to the directory of an individual lambda e.g. `cd routeMachineqData`
