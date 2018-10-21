@@ -70,7 +70,7 @@ def parse_record(event):
         type = '01'
     elif type in ['21', '23', '24', '27', '28']:
         val = str(bytearray.fromhex(hex[2:]).decode())
-        types = {'21': 'battery', '23': 'depth', '24': 'velocity', '27': 'temperature', '28': 'iswet'}
+        types = {'21': 'battery', '23': 'distance', '24': 'velocity_frequency', '27': 'temperature', '28': 'is_wet'}
         type_string = types[type]
     else:
         type_string = 'unknown'
